@@ -99,12 +99,9 @@ Considering our project's prime focus, this model offers a dependable framework 
 
 ### Limitations
 
-**Imbalanced Dataset:**
+**Imbalanced Dataset:** Our dataset predominantly consists of non-bankrupt companies, with only a few data points for bankrupt entities. This imbalance can skew the model's predictive capabilities.
 
-Our dataset predominantly consists of non-bankrupt companies, with only a few data points for bankrupt entities. This imbalance can skew the model's predictive capabilities.
-
-**Insufficient Features:**
-The current set of input features might not be comprehensive enough. Relying exclusively on the provided financial metrics might miss out on other vital bankruptcy indicators. To predict more accurately, we need to gather additional data or metrics that can contribute to recognizing the non-bankrupt nature of companies.
+**Insufficient Features:** The current set of input features might not be comprehensive enough. Relying exclusively on the provided financial metrics might miss out on other vital bankruptcy indicators. To predict more accurately, we need to gather additional data or metrics that can contribute to recognizing the non-bankrupt nature of companies.
 
 **Sensitivity to Data Changes:** If there are significant economic shifts or changes in the industry, the model might need retraining or adjustments to stay relevant.
 
