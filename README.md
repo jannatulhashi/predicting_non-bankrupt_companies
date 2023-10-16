@@ -22,6 +22,8 @@ We aimed to utilize this dataset to train our models to predict companies that w
 
 ## Project Work
 
+### Neural Networks and PySpark SQL
+
 We initially used the neural network approach because of its capability to capture complex patterns and relationships in large datasets, making it a potentially powerful tool for predicting company strength based on various factors, and achieved an accuracy of **93.6%**
 
 An initial glance might suggest our model's 93.6% accuracy is commendable. However, this figure mainly reflects the 93.6% of companies that didn't go bankrupt, while missing the crucial 6.4% that did. The pronounced accuracy is indicative of the inherent imbalance in our dataset, which predominantly represents non-bankrupt entities.
