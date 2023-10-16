@@ -121,6 +121,7 @@ Considering our project's prime focus, this model offers a dependable framework 
 
 **Broad Applicability:** The methodologies applied here can be adapted to other industries or geographies, making the approach versatile.
 
+###Tableau Visualisations:Images/Screenshot (182).png
 
 
 
