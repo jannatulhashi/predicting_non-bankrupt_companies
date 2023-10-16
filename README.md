@@ -30,7 +30,7 @@ An initial glance might suggest our model's 93.6% accuracy is commendable. Howev
 
 To navigate this imbalance, we experimented with various machine-learning approaches. Each comes with its own merits and limitations. Through comparative analysis, our objective is to enhance the breadth of our understanding and fortify prediction reliability.
 
-Additionally, our analytical strategy integrates **PySpark SQL**, optimizing scalability and efficiency in data exploration. This ensures a deeper grasp of prevailing trends and nuances, offering insights that not only corroborate the model's outputs but can also inform subsequent refinements.
+Additionally, our analytical strategy integrates **PySpark SQL**, optimizing scalability and efficiency in data exploration. This ensures a deeper grasp of prevailing trends and nuances, offering insights that not only uphold the model's outputs but can also inform subsequent refinements.
 
 ## Different Machine Learning Models:
 
@@ -118,6 +118,8 @@ Considering our project's prime focus, this model offers a dependable framework 
 **Benchmark Creation:** By utilizing multiple machine learning models, this project offers a comparative benchmark for bankruptcy prediction. Future models can be tested against these results for effectiveness.
 
 **Continuous Improvement:** The identification of current limitations implies that there's a clear path for model refinement. As more data becomes available or new techniques are developed, the model can evolve.
+
+**Broad Applicability:** The methodologies applied here can be adapted to other industries or geographies, making the approach versatile.
 
 
 
