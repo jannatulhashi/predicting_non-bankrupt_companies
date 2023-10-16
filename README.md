@@ -2,11 +2,13 @@
 
 ## Background
 
-We discovered a dataset **american_bankruptct.csv** on Kaggle related to bankruptcy prediction for American public companies listed on the New York Stock Exchange and NASDAQ. The dataset includes accounting data from 8,262 distinct companies collected between 1999 and 2018. We applied various machine learning models and deep neural networks to determine accuracy and precision. Additionally, we utilized Tableau for data visualization.
+We discovered a dataset **american_bankruptct.csv** on Kaggle related to bankruptcy prediction for American public companies listed on the New York Stock Exchange and NASDAQ. The dataset includes accounting data from 8,262 companies collected between 1999 and 2018. We applied various machine learning models and deep neural networks to determine accuracy and precision. Additionally, we utilized Tableau for data visualization.
+
+This is our main dataset : [](https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-prediction-dataset/data)
 
 ## Objective
 
-We aimed to utilize this dataset to train our models to predict companies that would thrive without declaring bankruptcy, and to discern the factors influencing a company's prolonged success.
+We aimed to utilize this dataset to train our models to predict companies that would thrive without declaring bankruptcy and to discern the factors influencing a company's prolonged success.
 
 ## Team Members
 
