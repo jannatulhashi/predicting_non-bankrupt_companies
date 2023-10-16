@@ -22,17 +22,17 @@ We aimed to utilize this dataset to train our models to predict companies that w
 
 ## Project Work
 
-We initially used the neural network approach because of its capability to capture complex patterns and relationships in large datasets, making it a potentially powerful tool for predicting company strength based on various factors and achieved an accuracy of **93.6%**
+We initially used the neural network approach because of its capability to capture complex patterns and relationships in large datasets, making it a potentially powerful tool for predicting company strength based on various factors, and achieved an accuracy of **93.6%**
 
-An initial glance might suggest our model's 93.6% accuracy as commendable. However, this figure mainly reflects the 93.6% of companies that didn't go bankrupt, while missing the crucial 6.4% that did. The pronounced accuracy is indicative of the inherent imbalance in our dataset, which predominantly represents non-bankrupt entities.
+An initial glance might suggest our model's 93.6% accuracy is commendable. However, this figure mainly reflects the 93.6% of companies that didn't go bankrupt, while missing the crucial 6.4% that did. The pronounced accuracy is indicative of the inherent imbalance in our dataset, which predominantly represents non-bankrupt entities.
 
-To navigate this imbalance, we experimented with various machine learning approaches. Each comes with its own merits and limitations. Through comparative analysis, our objective is to enhance the breadth of our understanding and fortify prediction reliability.
+To navigate this imbalance, we experimented with various machine-learning approaches. Each comes with its own merits and limitations. Through comparative analysis, our objective is to enhance the breadth of our understanding and fortify prediction reliability.
 
 Additionally, our analytical strategy integrates PySpark SQL, optimizing scalability and efficiency in data exploration. This ensures a deeper grasp of prevailing trends and nuances, offering insights that not only corroborate the model's outputs but can also inform subsequent refinements.
 
-### Different Machine Learning Models:
+## Different Machine Learning Models:
 
-#### Logistic Regression
+### Logistic Regression
 
 We used logistic regression and below is our classification report for testing data:
 
@@ -42,7 +42,7 @@ We used logistic regression and below is our classification report for testing d
 
 **How well does the performance of the  training and test dataset compare?**
 
-**Answer:** When it comes to Active companies, there is a 93% success rate, meanwhile for the failed companies there is only a 59% success rate. There is a lot of unpredictability within the "failed" companies. There could also be external factors as to why a companies goes bankrupt.
+**Answer:** When it comes to Active companies, there is a 93% success rate, meanwhile for the failed companies there is only a 59% success rate. There is a lot of unpredictability within the "failed" companies. There could also be external factors as to why a company goes bankrupt.
 
 
 **Confusion Matrix**
@@ -57,17 +57,17 @@ ACCURACY = 93% PRECISION = 94% RECALL = 100% (1) F-1 SCORE = 97%
 
 **Conclusion**
 
-In terms of the logistic regression, due to the similarity of the X-variables (all Financial-Accounting related), even with a 93% success rate of companies that are alive, there will still be a small iaccuracy, as there are no external variables in the dataset. For this reason there are limitations to the dataset, and it will not achieve full perfect accuracy.
+In terms of the logistic regression, due to the similarity of the X-variables (all Financial-Accounting related), even with a 93% success rate of companies that are alive, there will still be a small inaccuracy, as there are no external variables in the dataset. For this reason, there are limitations to the dataset, and it will not achieve full perfect accuracy.
 
-For companies that are going bankrupt the success rate is only 53% and the recall is only 1 percent. The dataset timeline was from 1999 - 2018, where there were many external factors, that had world wide impact on companies. These are factors that cannot be seen, or even predicted.
+For companies that are going bankrupt the success rate is only 53% and the recall is only 1 percent. The dataset timeline was from 1999 - 2018, where there were many external factors, that had a worldwide impact on companies. These are factors that cannot be seen, or even predicted.
 
-#### Random Forest
+### Random Forest
 
 Then we used random forest. Random Forest offers a robust and generalized model by constructing multiple decision trees. We employed a **Heatmap** to discern feature collinearity..
 
 ![](Images/heatmap.png)
 
-We analyze that there is lot of collinearity between the features, so we're applying the feature engineering and reducing the features and our classification report for testing data is shown below:
+We analyze that there is a lot of collinearity between the features, so we're applying feature engineering and reducing the features our classification report for testing data is shown below:
 
 ![](Images/random_forest.PNG)
 
@@ -77,13 +77,13 @@ After that, we visualize the features by importance.
 
 **Conclusion**
 
-Using the Random Forest classification technique, a machine learning algorithm was built that would identify if the company remain without bankruptcy must be targeted to enhance the market value and retained earning. Also, a mutli-class classification was done to spot which feature dominated the company's performance.
+Using the Random Forest classification technique, a machine learning algorithm was built that would identify if the company remain without bankruptcy and must be targeted to enhance the market value and retained earning. Also, a multi-class classification was done to spot which features dominated the company's performance.
 
-A company may need to enter bankruptcy due to poor market value, earnings, increase in liabilities or long term debt. This data analytic based algorithm helps companies to predict their performance and keep them alive in the market.
+A company may need to enter bankruptcy due to poor market value, earnings, increase in liabilities, or long-term debt. This data analytic-based algorithm helps companies to predict their performance and keep them alive in the market.
 
-Need some more features to provide more accurate information on the companies not to enter the bankruptcy. Even though the accuracy is high, the model seems to be biased.
+Need some more features to provide more accurate information on the companies not to enter bankruptcy. Even though the accuracy is high, the model seems to be biased.
 
-#### Gradient Boosting
+### Gradient Boosting
 
 Following our insights from the Random Forest model, we identified potential performance enhancements. Hence, we turned to the Gradient Boosting model. The subsequent classification report sheds light on how this model fares in predicting company solvency. 
 
@@ -91,11 +91,11 @@ Following our insights from the Random Forest model, we identified potential per
 
 **Conclusion**
 
-In this model, the training data exhibits a high accuracy of 88%, and recall of 87% for companies that are not at risk (Class 1). This indicates the model's adeptness in pinpointing a significant majority of solvent companies during its training phase.
+In this model, the training data exhibits a high accuracy of 88% and recall of 87% for companies that are not at risk (Class 1). This indicates the model's adeptness in pinpointing a significant majority of solvent companies during its training phase.
 
 When tested on unseen data, the model still maintains robustness, securing an 83% accuracy rate and an 85% recall for non-risk companies. Such consistency between training and testing phases underlines the model's capability to generalize well, minimizing the likelihood of making false negative predictions—i.e., mistakenly labeling a solvent company as at risk.
 
-Considering our project's prime focus, this model offers a dependable framework to accurately distinguish companies not at risk of bankruptcy, observing closely to the set objectives and metrics set out in our goal.
+Considering our project's prime focus, this model offers a dependable framework to accurately distinguish companies not at risk of bankruptcy, observing closely the set objectives and metrics set out in our goal.
 
 
 
