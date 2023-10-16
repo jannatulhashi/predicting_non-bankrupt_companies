@@ -12,7 +12,7 @@ We aimed to utilize this dataset to train our models to predict companies that w
 
 ## Team Members
 
-- Jannatul Ferdos Hashi - Neural Networks, PySpark SQL and Gradient Boosting
+- Jannatul Ferdos Hashi - Neural Network, PySpark SQL and Gradient Boosting
 
 - Arun Balaram - Logistic Regression
 
@@ -22,21 +22,21 @@ We aimed to utilize this dataset to train our models to predict companies that w
 
 ## Project Work
 
-### Neural Networks and PySpark SQL
+### Neural Network and PySpark SQL
 
-We initially used the neural network approach because of its capability to capture complex patterns and relationships in large datasets, making it a potentially powerful tool for predicting company strength based on various factors, and achieved an accuracy of **93.6%**
+We initially used the **Neural Network** approach because of its capability to capture complex patterns and relationships in large datasets, making it a potentially powerful tool for predicting company strength based on various factors, and achieved an accuracy of **93.6%**
 
 An initial glance might suggest our model's 93.6% accuracy is commendable. However, this figure mainly reflects the 93.6% of companies that didn't go bankrupt, while missing the crucial 6.4% that did. The pronounced accuracy is indicative of the inherent imbalance in our dataset, which predominantly represents non-bankrupt entities.
 
 To navigate this imbalance, we experimented with various machine-learning approaches. Each comes with its own merits and limitations. Through comparative analysis, our objective is to enhance the breadth of our understanding and fortify prediction reliability.
 
-Additionally, our analytical strategy integrates PySpark SQL, optimizing scalability and efficiency in data exploration. This ensures a deeper grasp of prevailing trends and nuances, offering insights that not only corroborate the model's outputs but can also inform subsequent refinements.
+Additionally, our analytical strategy integrates **PySpark SQL**, optimizing scalability and efficiency in data exploration. This ensures a deeper grasp of prevailing trends and nuances, offering insights that not only corroborate the model's outputs but can also inform subsequent refinements.
 
 ## Different Machine Learning Models:
 
 ### Logistic Regression
 
-We used logistic regression and below is our classification report for testing data:
+We used **Logistic Regression** and below is our classification report for testing data:
 
 ![](Images/logistic_regression.PNG)
 
@@ -65,7 +65,7 @@ For companies that are going bankrupt the success rate is only 53% and the recal
 
 ### Random Forest
 
-Then we used random forest. Random Forest offers a robust and generalized model by constructing multiple decision trees. We employed a **Heatmap** to discern feature collinearity..
+Then we used **Random Forest**. Random Forest offers a robust and generalized model by constructing multiple decision trees. We employed a **Heatmap** to discern feature collinearity..
 
 ![](Images/heatmap.png)
 
