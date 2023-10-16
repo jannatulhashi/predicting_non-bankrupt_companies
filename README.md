@@ -97,6 +97,31 @@ When tested on unseen data, the model still maintains robustness, securing an 83
 
 Considering our project's prime focus, this model offers a dependable framework to accurately distinguish companies not at risk of bankruptcy, observing closely the set objectives and metrics set out in our goal.
 
+### Limitations
+
+**Imbalanced Dataset:**
+
+Our dataset predominantly consists of non-bankrupt companies, with only a few data points for bankrupt entities. This imbalance can skew the model's predictive capabilities.
+
+**Insufficient Features:**
+The current set of input features might not be comprehensive enough. Relying exclusively on the provided financial metrics might miss out on other vital bankruptcy indicators. To predict more accurately, we need to gather additional data or metrics that can contribute to recognizing the non-bankrupt nature of companies.
+
+**Sensitivity to Data Changes:** If there are significant economic shifts or changes in the industry, the model might need retraining or adjustments to stay relevant.
+
+**Variables are all Financial-related (no external variables):** The model predominantly depends on financial indicators, excluding external or environmental variables that might play a significant role in a company's financial health. By not considering factors such as industry dynamics, geopolitical events, or managerial decisions, the model might miss out on potential insights that could be important in predicting a company's risk of bankruptcy more accurately.
+
+### What are the advantages of this project:
+
+**Data-Driven Decisions:** The project equips stakeholders with a data-driven approach to assess company health, allowing for informed decision-making instead of relying on intuition or broad market trends.
+
+**Early Risk Detection:** Our model's high recall allows stakeholders to proactively identify companies at risk of bankruptcy well in advance, facilitating preventive measures and strategic decision-making.
+
+**Benchmark Creation:** By utilizing multiple machine learning models, this project offers a comparative benchmark for bankruptcy prediction. Future models can be tested against these results for effectiveness.
+
+**Continuous Improvement:** The identification of current limitations implies that there's a clear path for model refinement. As more data becomes available or new techniques are developed, the model can evolve.
+
+
+
 
 
 
